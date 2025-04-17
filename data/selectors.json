@@ -18,7 +18,12 @@
         "searchList":"#object_list"
     },
       "rackSelectors": {
-        "rackOption":"a[href='/dcim/racks/39/']"
+        "rackOption":"a[href='/dcim/racks/39/']",
+        "deviceRoleInput":"#id_role-ts-control",
+        "deviceOption":"#id_role-opt-1",
+        "deviceTypeInput":"#id_device_type-ts-control",
+        "deviceTypeOption":"#id_device_type-opt-1"
+        
     }
   
 }

@@ -19,20 +19,22 @@ test.describe("Rack Device Tests", () => {
     await loginPage.clickOnSignInBtn();
   });
 
-  test("Add device to rack from front view with available unit space", async () => {
+  test('Add device to rack from front view with available unit space', async () => {
     await page.goto(RACKS_URL);
-    rackDetailPage.goToRackDetailsPage();
+    await rackDetailPage.goToRackDetailsPage();
+    await rackDetailPage.checkEmptySlot();
+    await rackDetailPage.createADevice();
   });
 
-  test("Add device to rack from rear view with available unit space", async () => {
+  test('Add device to rack from rear view with available unit space', async () => {
     // To DO
   });
 
-  test("Fail to add device to rack if unit space is insufficient from front view", async () => {
+  test('Fail to add device to rack if unit space is insufficient from front view', async () => {
     // To DO
   });
 
-  test("Fail to add device to rack if unit space is insufficient from rear view", async () => {
+  test('Fail to add device to rack if unit space is insufficient from rear view', async () => {
     // To DO
   });
 });
