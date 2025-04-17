@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import * as selectors from "../selectors.json";
+import * as selectors from "../data/selectors.json";
 
 export default class LoginPage {
   private page: Page;

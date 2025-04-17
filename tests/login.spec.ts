@@ -1,6 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
 import LoginPage from '@pages/LoginPage';
-import { BASE_URL } from '../constants';
+import { BASE_URL } from '../data/constants';
 import { existingUserEmail, randomEmail, testPassword } from '../data/testData';
 
 test.describe('Login Tests', () => {

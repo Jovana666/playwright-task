@@ -1,9 +1,0 @@
-{
-    "loginSelectors": {
-        "loginBtn":"a[href='/login/?next=/']",
-        "registerUserBtn":"a[href='/plugins/demo/login/']",
-        "emailInput":"#id_username",
-        "passwordInput":"#id_password"
-
-    }
-}
