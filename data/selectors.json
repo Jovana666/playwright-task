@@ -1,0 +1,29 @@
+{
+    "loginSelectors": {
+        "loginBtn":"a[href='/login/?next=/']",
+        "registerUserBtn":"a[href='/plugins/demo/login/']",
+        "emailInput":"#id_username",
+        "passwordInput":"#id_password"
+
+    },
+    "deviceTypeSelectors":
+    {
+        "manufacturerDropdown":"#id_manufacturer-ts-control",
+        "manufacturerOption":"#id_manufacturer-opt-1",
+        "modelInput":"#id_model",
+        "slugField":"#id_slug",
+        "chassisInput":"#id_u_height",
+        "deviceTypeLink":"a[href='/dcim/device-types/']",
+        "searchDeviceTypesInput":"#quicksearch",
+        "searchList":"#object_list"
+    },
+      "rackSelectors": {
+        "rackOption":"a[href='/dcim/racks/39/']",
+        "deviceRoleInput":"#id_role-ts-control",
+        "deviceOption":"#id_role-opt-1",
+        "deviceTypeInput":"#id_device_type-ts-control",
+        "deviceTypeOption":"#id_device_type-opt-1"
+        
+    }
+  
+}
